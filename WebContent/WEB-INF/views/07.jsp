@@ -32,10 +32,10 @@
 --%>
 	<h3>el scope 생략</h3>
 
-	page name = ${ name } <br>
+	<!--page name = ${ name } <br>-->
 	request name = ${ name } <br>
-	session name = ${ name } <br>
-	application name = ${ name } <br>
+	session name = ${ applicationScope.name } <br>
+	<!--application name = ${ name } <br>-->
 
 
 
