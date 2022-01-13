@@ -5,6 +5,7 @@
 	application.setAttribute("name", "application name");
 	%>
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +15,7 @@
 <body>
 	<h1>el jstl</h1>
 
-	<h2>범주우선수위</h2>
+	<h2>범주 우선수위</h2>
 
 	<h3>자바문법</h3>
 <%--
@@ -36,17 +37,6 @@
 	request name = ${ name } <br>
 	session name = ${ applicationScope.name } <br>
 	<!--application name = ${ name } <br>-->
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>

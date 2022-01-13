@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="vo.UserVo" %>
-<% %>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,6 +28,7 @@
 	password = <%=userVo.getPassword() %> <br>
 	gender = <%=userVo.getGender() %> <Br>
 	<br>
+	
 	num = <%=num  %><br>
 	str = <%=str  %><br>	
 	<br>
@@ -37,22 +39,7 @@
 	name = ${ userVo.name } <br> <!-- requestScope는 생략 가능 -->
 	email = ${ userVo.email } <br>
 	password = ${ requestScope.userVo.password } <br>	
-	gender = ${ requestScope.userVo.gender } <br>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	gender = ${ requestScope.userVo.gender } <br>	
 	<br>
 	<br>
 

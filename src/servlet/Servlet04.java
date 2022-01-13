@@ -20,10 +20,8 @@ public class Servlet04 extends HttpServlet {
 		UserVo userVo = new UserVo(1, "박명수", "park", "1234", "male");
 		request.setAttribute("userVo", userVo);
 		
-		
 		request.setAttribute("num", 1);
 		request.setAttribute("str", "안녕하세요");
-		
 		
 		
 		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/04.jsp");

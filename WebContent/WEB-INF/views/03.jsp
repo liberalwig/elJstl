@@ -1,4 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,24 +30,13 @@
 
 	<br>
 	<br>
+	
 	<h2>파라미터 > el 문법 파라미터값 꺼내 쓰기</h2>
 	id = ${ param.id } <br>
 	pw = ${ param.pw } <br>
 	name = ${ param.name } <br>
 	no1 = ${ param.num1 } <br>
 	no2 = ${ param.num2 } <br>
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
